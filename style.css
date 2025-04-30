@@ -23,7 +23,7 @@ img{
     position: absolute;
     width: 100%;
     height: 100%;
-    transform-style: preserve-3d;
+        transform-style: preserve-3d;
     transform: rotateY(calc(var(--i)*45deg)) translateZ(500px);
     -webkit-box-reflect: below 2.5px linear-gradient(transparent, transparent, rgba(3,3,3,0.2));
 }
